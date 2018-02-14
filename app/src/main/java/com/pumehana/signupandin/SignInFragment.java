@@ -1,5 +1,7 @@
 package com.pumehana.signupandin;
 
+//Created by Usagi
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -35,6 +37,7 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
     private EditText password;
     private Button submit;
     private Button forgot_btn;
+    private Button signIn_clearBtn;
     private FirebaseAuth mAuth ;
 
     @Override
@@ -45,9 +48,11 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
         password = view.findViewById(R.id.password);
         submit = view.findViewById(R.id.submit);
         forgot_btn = view.findViewById(R.id.forgot_btn);
+        signIn_clearBtn = view.findViewById(R.id.signIn_clearBtn);
         mAuth = FirebaseAuth.getInstance();
         submit.setOnClickListener(this);
         forgot_btn.setOnClickListener(this);
+        signIn_clearBtn.setOnClickListener(this);
         return view;
     }
 
@@ -59,6 +64,10 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
         }
         if(view == forgot_btn){
             forgotPWD();
+        }
+        if(view == signIn_clearBtn){
+            email.setText("");
+            password.setText("");
         }
     }
     //Signing in

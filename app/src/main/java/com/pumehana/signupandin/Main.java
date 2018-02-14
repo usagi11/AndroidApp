@@ -1,5 +1,7 @@
 package com.pumehana.signupandin;
 
+//Created by Usagi
+
 import android.content.pm.ActivityInfo;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

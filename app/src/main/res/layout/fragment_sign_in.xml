@@ -53,6 +53,18 @@
         android:layout_marginLeft="10dp"
         android:textSize="25dp"
         android:text="Fogot Password" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgot_btn"
+        android:background="@color/purple"
+        android:text="Clear"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:id="@+id/signIn_clearBtn"
+        />
 
 </RelativeLayout>
 </FrameLayout>

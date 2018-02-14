@@ -1,5 +1,7 @@
 package com.pumehana.signupandin;
 
+//Created by Usagi
+
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -27,6 +29,7 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
     private TextView userPasswordOne;
     private TextView userPasswordTwo;
     private Button submit;
+    private Button signUp_clearBtn;
     private FirebaseAuth mAuth;
 
     @Override
@@ -35,11 +38,12 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
         View v = inflater.inflate(R.layout.fragment_sign_up, container, false);
 
         userEmail = (EditText) v.findViewById(R.id.email);
-        userPasswordOne = (EditText) v.findViewById(R.id.passwordOne);
-        userPasswordTwo = (EditText) v.findViewById(R.id.passwordTwo);
-        submit = (Button) v.findViewById(R.id.submit);
+        userPasswordOne = v.findViewById(R.id.passwordOne);
+        userPasswordTwo = v.findViewById(R.id.passwordTwo);
+        submit =  v.findViewById(R.id.submit);
+        signUp_clearBtn = v.findViewById(R.id.signUp_clearBtn);
         submit.setOnClickListener(this);
-
+        signUp_clearBtn.setOnClickListener(this);
         return v;
 
 
@@ -50,6 +54,11 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         if(view == submit){
             createUserAccount(userEmail.getText().toString(), userPasswordOne.getText().toString(), userPasswordTwo.getText().toString());
+        }
+        if(view == signUp_clearBtn){
+            userEmail.setText("");
+            userPasswordOne.setText("");
+            userPasswordTwo.setText("");
         }
     }
 

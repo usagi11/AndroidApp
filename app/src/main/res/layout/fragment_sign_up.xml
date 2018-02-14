@@ -56,5 +56,18 @@
             android:background="@color/colorAccent"
             android:text="Submit"
             android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/submit"
+            android:layout_marginTop="30dp"
+            android:background="@color/purple"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Clear"
+            android:textSize="25dp"
+            android:id="@+id/signUp_clearBtn"
+            />
     </RelativeLayout>
 </FrameLayout>

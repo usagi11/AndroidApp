@@ -1,5 +1,7 @@
 package com.pumehana.signupandin;
 
+//Created by Usagi
+
 import android.content.Intent;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
