@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SignUpAndIn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="choosing_measurement"><b>Welcome to MiOLa</b> and thank you for signing up our App. Before starting your health history, we need to your basic information to calculate your Body Mass Index (BMI) and Basal Metabolic Rate (BMR). Please fill out following information with "*" at least.\nWe do not use your information for third party.</string>
+    <string name="usMeasurement">lb/ft</string>
+    <string name="standardMeasurement">kg/cm</string>
+</resources>

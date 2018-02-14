@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pumehana.signupandin.Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* need to fill out"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:id="@+id/caution_text"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caution_text"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:text="@string/usMeasurement"
+        android:textAllCaps="false"
+        android:id="@+id/usMeasure"
+        android:background="@color/pink"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caution_text"
+        android:layout_marginStart="51dp"
+        android:layout_toEndOf="@+id/usMeasure"
+        android:text="@string/standardMeasurement"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/standardMeasure"
+        />
+
+</RelativeLayout>

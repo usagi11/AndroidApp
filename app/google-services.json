@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "310563003246",
+    "firebase_url": "https://trackhealth-29c35.firebaseio.com",
+    "project_id": "trackhealth-29c35",
+    "storage_bucket": "trackhealth-29c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310563003246:android:f7f353beb9d6c540",
+        "android_client_info": {
+          "package_name": "com.pumehana.trackhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310563003246-cdkam20mdb4dfnkfhcn30qqp5un4ljus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pumehana.trackhealth",
+            "certificate_hash": "541ab3884cba4748358b9d812792f0ba4a80c0bb"
+          }
+        },
+        {
+          "client_id": "310563003246-gf0b60m22nja282r0ou2t1gqhumof8ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2c85Yer4RkG2BAdodXXPQ74GwsDo21uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310563003246-gf0b60m22nja282r0ou2t1gqhumof8ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310563003246:android:3086d0c3a9fd283e",
+        "android_client_info": {
+          "package_name": "com.pumehana.signupandin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310563003246-rh943tfv8qccf0jvgei46rthjuvuvult.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pumehana.signupandin",
+            "certificate_hash": "541ab3884cba4748358b9d812792f0ba4a80c0bb"
+          }
+        },
+        {
+          "client_id": "310563003246-gf0b60m22nja282r0ou2t1gqhumof8ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2c85Yer4RkG2BAdodXXPQ74GwsDo21uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310563003246-gf0b60m22nja282r0ou2t1gqhumof8ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
